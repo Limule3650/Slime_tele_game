@@ -1,0 +1,22 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+#game-container {
+  padding: 20px;
+}
+#slime {
+  width: 100px;
+  height: 100px;
+  background-image: url('slime.png');
+  background-size: cover;
+  position: absolute;
+  cursor: pointer;
+}
+#game-over {
+  margin-top: 20px;
+}
